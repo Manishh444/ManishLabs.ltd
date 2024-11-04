@@ -57,7 +57,7 @@ a {
   right: 10px;
   z-index: 9999;
   font-size: 18px;
-  background-color: #161e6e; 
+  background-color: #2C3E50; 
   font-weight: 700;
 }
 
@@ -157,7 +157,7 @@ opacity: 0.5;
 
 /* ------------------about---------------- */
 .about-section {
-  background-color: rgba(3, 3, 3, 0.6);
+  background-color: #34495E;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ opacity: 0.5;
 
 /* new PORTFOLIO CSS */
 .Portfolio-section{
-background-color: #6b6b70;
+background-color: #99A3AE;
 
 }
 .marketing .col-lg-4 {
@@ -273,7 +273,7 @@ background-color: #6b6b70;
 /* --------------contact------------- */
 .contact {
   padding-top: 20px;
-  background-color: #4c6ba4;
+  background-color: #A1ADBA;
 }
 .contact .btn-submit {
   background-color: #f4623a;
