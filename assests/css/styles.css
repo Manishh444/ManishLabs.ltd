@@ -1,9 +1,31 @@
-:root {
+/* :root {
   --primary-color: hsl(230, 45%, 44%);
   --secondary-color: hsl(0, 0%, 100%);
   --circle-color: hsl(203, 100%, 88%);
   --section-color: hsl(229, 100%, 94%);
+} */
+
+:root {
+  /* Primary Colors */
+  --color-primary: #2C3E50;            /* Navy Blue */
+  --color-secondary: #34495E;          /* Charcoal Gray */
+
+  /* Accent Colors */
+  --color-accent: #D4AF37;             /* Gold */
+  --color-accent-secondary: #6E2C2B;   /* Rich Burgundy */
+
+  /* Background Colors */
+  --color-background: #FDFDFD;         /* Ivory */
+  --color-background-alt: #EAE0D5;     /* Beige */
+
+  /* Additional Complementary Colors */
+  --color-muted: #5D6D7E;              /* Slate Blue */
+  --color-muted-dark: #3B3D3B;         /* Dark Olive Green */
+  --color-dark: #1C2833;               /* Oxford Blue */
+  --color-neutral: #7F8C8D;            /* Steel Gray */
+  --color-highlight: #AAB7B8;          /* Sage Green */
 }
+
 
 * {
   margin: 0;
@@ -58,7 +80,7 @@ a {
   right: 10px;
   z-index: 9999;
   font-size: 18px;
-  background-color: #2C3E50; 
+  background-color: var(--color-navy-blue); 
   font-weight: 700;
 }
 
@@ -82,6 +104,17 @@ opacity: 0.5;
     width: 100px;
     height: 45px;
   }
+}
+
+/* Center navbar links in mobile view */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    /* .navbar-nav .nav-item {
+        display: inline-block;
+    } */
 }
 .navbar-nav li a {
   color: rgb(255, 255, 255);
@@ -264,7 +297,8 @@ opacity: 0.5;
 .title h2::after {
   content: "";
   position: absolute;
-  background-color: #f4623a;
+  /* background-color: #f4623a; */
+  background-color: var(--color-gold);
   height: 3px;
   width: 10%;
   bottom: 0;
@@ -319,10 +353,11 @@ background-color: #99A3AE;
 /* --------------contact------------- */
 .contact {
   padding-top: 20px;
-  background-color: #A1ADBA;
+  background-color: var(--color-slate-blue);
 }
 .contact .btn-submit {
-  background-color: #f4623a;
+  /* background-color: #f4623a; */
+  background-color: var(--color-gold);
   color: white;
   font-weight: bold;
   transition: all 0.4s;
