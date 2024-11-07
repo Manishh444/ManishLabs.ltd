@@ -359,9 +359,9 @@ opacity: 0.5;
   margin-left: 0.75rem;
 }
 .portfolio-card{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Adds a soft shadow */
     padding: 20px; /* Adds some padding to make the shadow visible */
-    background-color: #99a3ae; /* Optional: Adds a background color to highlight the shadow */
+    background-color: var(--color-accent); /* Optional: Adds a background color to highlight the shadow */
     border-radius: 8px; /* Optional: Rounds the corners */
 }
 
