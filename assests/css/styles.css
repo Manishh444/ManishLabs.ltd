@@ -132,10 +132,48 @@ opacity: 0.5;
 
 /* ----------------------------------------------NEW HEro Section */
 
+
 .hero-section {
   /* min-heig; */
+  position: relative;
+  overflow: hidden;
   background-color: #f8f9fa;
-  padding-top: 70px;
+  padding-top: 80px;
+}
+
+
+.hero-image {
+    object-fit: cover; 
+    /* so that image fit inside conatiner */
+    /* Adjust contrast as needed */
+}
+
+@media (max-width: 767px){
+  .hero-section{
+    padding-bottom: 100px;
+  }
+  .hero-image {
+    object-fit: cover; 
+    filter: contrast(0.4);
+}
+.d-sm-none{
+  position: absolute;
+  overflow: hidden;
+}
+.text-column{
+  position: relative;
+  z-index: 10;
+  color: #ffffff;
+}
+.secondary-btn {
+  border: 2px solid var(--color-accent);
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background-color: var(--color-primary);
+}
 }
 
 @media (min-width: 992px) {
