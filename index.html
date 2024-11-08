@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Law Serve</title>
-     <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -21,11 +21,13 @@
     <link rel="stylesheet" href="./assests/css/styles.css" />
   </head>
   <body>
-<!-- -------------------------------Section Navbar  ---------------------------->
- 
-  <header>
+    <!-- -------------------------------Section Navbar  ---------------------------->
+
+    <header>
       <!-- add py-md-3 to below line to increase padding top & bottom -->
-      <nav id="navbar" class="navbar nav-layer navbar-expand-lg navbar-light px-md-5">
+      <nav
+        id="navbar"
+        class="navbar nav-layer navbar-expand-lg navbar-light px-md-5">
         <div class="container-fluid">
           <!-- navbar-brand add this class to below anchor tag for padding -->
           <a class="text-white" href="#home">
@@ -42,7 +44,7 @@
             aria-label="Toggle navigation">
             <span class="fa fa-bars text-light"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item px-4 py-2">
                 <a href="#home">Home</a>
@@ -51,7 +53,7 @@
                 <a href="#about">About</a>
               </li>
               <li class="nav-item px-4 py-2">
-                <a href="#Service">Services</a>
+                <a href="#service">Services</a>
               </li>
               <li class="nav-item px-4 py-2">
                 <a href="#portfolio">Portfolio</a>
@@ -65,14 +67,12 @@
       </nav>
     </header>
 
+    <!----------------------------------- Main Section  -->
 
-<!----------------------------------- Main Section  -->
+    <main>
+      <!-- ---------------------------- Home Section-->
 
-<main>
-
-    <!-- ---------------------------- Home Section-->
-
-         <!-- <section class="home" id="home">
+      <!-- <section class="home" id="home">
         <div class="home-container">
           <div
             class="layer d-flex justify-content-center align-items-center text-light w-100 h-100">
@@ -92,43 +92,53 @@
           </div>
         </div>
       </section> -->
-<!-- bewlo is my currect code of hero section -->
+      <!-- bewlo is my currect code of hero section -->
 
-  <section id="home" class="hero-section position-relative  pt-lg-5 pt-6 mb-2">
+      <section
+        id="home"
+        class="hero-section position-relative pt-lg-5 pt-6 mb-2">
         <div class="container">
-            <div class="row align-items-around ">
-                <!-- Image Column -->
-                <div class=" d-md-block d-sm-none col-12 col-md-6 h-100 rounded ">
-                    <img src="./assests/img/BG_About.png" alt="Law firm team" class="hero-image">
-                </div>  
-                <!-- Text Column -->
-                <div class="col-12 col-md-6 text-column mt-4 mb-4 mb-md-0">
-                    <h1 class=" h1-text display-4 fw-bold mb-4">Solution beyond conventional Innovating Legal Practices</h1>
-                    <p class="lead mb-4">Your Business. Our Expertise. Unwavering Protection</p>
-                    <div class="d-flex  flex-column flex-sm-row gap-3 gap-lg-5">
-                        <a href="#contact">
-                        <button class="btn btn-lg primary-btn px-3 py-1">Book Consultation</button>
-                        </a>
-                        <a href="#about">
-                        <button class="btn btn-lg secondary-btn px-4 py-1">Learn More</button>
-                        </a>
-                    </div>
-                </div>
-                
-                
+          <div class="row align-items-around">
+            <!-- Image Column -->
+            <div class="d-md-block d-sm-none col-12 col-md-6 h-100 rounded">
+              <img
+                src="./assests/img/BG_About.png"
+                alt="Law firm team"
+                class="hero-image" />
             </div>
+            <!-- Text Column -->
+            <div class="col-12 col-md-6 text-column mt-4 mb-4 mb-md-0">
+              <h1 class="h1-text display-4 fw-bold mb-4">
+                Solution beyond conventional Innovating Legal Practices
+              </h1>
+              <p class="lead mb-4">
+                Your Business. Our Expertise. Unwavering Protection
+              </p>
+              <div class="d-flex flex-column flex-sm-row gap-3 gap-lg-5">
+                <a href="#contact">
+                  <button class="btn btn-lg primary-btn px-3 py-1">
+                    Book Consultation
+                  </button>
+                </a>
+                <a href="#about">
+                  <button class="btn btn-lg secondary-btn px-4 py-1">
+                    Learn More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-<!-- bewlo is my currect code of hero section -->
-
+      <!-- bewlo is my currect code of hero section -->
 
       <!-- -------------------------------About Section --------------------------- -->
 
-          <section class="container-fluid about-section" id="about">
+      <section class="container-fluid about-section" id="about">
         <div class="container about-layer pt-3 pb-3 w-100 h-100">
           <div class="about-text text-center pt-5 pb-5">
-            <h2> Law Serve & Partners.</h2>
+            <h2>Law Serve & Partners.</h2>
             <p class="pt-4 pb-4 fs-5">
               At [Law & Partners], we are committed to providing exceptional
               legal services with a focus on personalized attention and
@@ -160,81 +170,165 @@
         </div>
       </section>
 
+      <!-- -------------------------------------------service section--------------------------- -->
 
+      <div id="service" class="container py-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <!-- Service Card Start -->
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-briefcase"></i>
+                <!-- Replace with desired icon -->
+              </div>
+              <h5 class="service-title">Service 1</h5>
+              <p class="service-description">Brief description of Service 1.</p>
+            </div>
+          </div>
+          <!-- Repeat this column div for each service -->
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+              <h5 class="service-title">Service 2</h5>
+              <p class="service-description">Brief description of Service 2.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+              <h5 class="service-title">Service 2</h5>
+              <p class="service-description">Brief description of Service 2.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+              <h5 class="service-title">Service 2</h5>
+              <p class="service-description">Brief description of Service 2.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+              <h5 class="service-title">Service 2</h5>
+              <p class="service-description">Brief description of Service 2.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+              <h5 class="service-title">Service 2</h5>
+              <p class="service-description">Brief description of Service 2.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h5 class="service-title">Service 3</h5>
+              <p class="service-description">Brief description of Service 3.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-globe"></i>
+              </div>
+              <h5 class="service-title">Service 4</h5>
+              <p class="service-description">Brief description of Service 4.</p>
+            </div>
+          </div>
+          <!-- Repeat for more services as needed -->
+        </div>
+      </div>
       <!-- ----------------------------------Portfolio Section -->
 
       <!-- NEW PORTFOLIO SECTION START -->
-      <div class="Portfolio-section py-2 " id="portfolio">
-      <div class="container marketing py-4">
-        <h1 class="text-center text-ligt py-5 fs-1">Attorneys</h1>
-        <!-- Three columns of text below the carousel -->
-        <div class="row gap-3">
-          
-          <!-- /.col-lg-4 -->
-            <div class="col-lg d-flex flex-column align-items-center text-center portfolio-card">
-            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
-            <img
-              class="bd-placeholder-img rounded"
-              width="200"
-              height="200"
-              aria-label="Placeholder"
-              src="./assests/img/female_pic.png"
-              alt="" />
-            <h2 class="fw-normal">Heading</h2>
-            <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#">View details &raquo;</a>
-            </p>
-          </div>
-         
-          <!-- /.col-lg-4 -->
+      <div class="Portfolio-section py-2" id="portfolio">
+        <div class="container marketing py-4">
+          <h1 class="text-center text-ligt py-5 fs-1">Attorneys</h1>
+          <!-- Three columns of text below the carousel -->
+          <div class="row gap-3">
+            <!-- /.col-lg-4 -->
+            <div
+              class="col-lg d-flex flex-column align-items-center text-center portfolio-card">
+              <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+              <img
+                class="bd-placeholder-img rounded"
+                width="200"
+                height="200"
+                aria-label="Placeholder"
+                src="./assests/img/female_pic.png"
+                alt="" />
+              <h2 class="fw-normal">Heading</h2>
+              <p>
+                Some representative placeholder content for the three columns of
+                text below the carousel. This is the first column.
+              </p>
+              <p>
+                <a class="btn btn-secondary" href="#">View details &raquo;</a>
+              </p>
+            </div>
 
-          <div class="col-lg d-flex flex-column align-items-center text-center portfolio-card">
-            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
-            <img
-              class="bd-placeholder-img rounded-circle"
-              width="200"
-              height="200"
-              aria-label="Placeholder"
-              src="./assests/img/female_pic.png"
-              alt="" />
-            <h2 class="fw-normal">Heading</h2>
-            <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#">View details &raquo;</a>
-            </p>
-          </div>
+            <!-- /.col-lg-4 -->
 
-          <div class="col-lg d-flex flex-column align-items-center text-center portfolio-card ">
-            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
-            <img
-              class="bd-placeholder-img rounded"
-              width="200"
-              height="200"
-              aria-label="Placeholder"
-              src="./assests/img/female_pic.png"
-              alt="" />
-            <h2 class="fw-normal">Heading</h2>
-            <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#">View details &raquo;</a>
-            </p>
+            <div
+              class="col-lg d-flex flex-column align-items-center text-center portfolio-card">
+              <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+              <img
+                class="bd-placeholder-img rounded-circle"
+                width="200"
+                height="200"
+                aria-label="Placeholder"
+                src="./assests/img/female_pic.png"
+                alt="" />
+              <h2 class="fw-normal">Heading</h2>
+              <p>
+                Some representative placeholder content for the three columns of
+                text below the carousel. This is the first column.
+              </p>
+              <p>
+                <a class="btn btn-secondary" href="#">View details &raquo;</a>
+              </p>
+            </div>
+
+            <div
+              class="col-lg d-flex flex-column align-items-center text-center portfolio-card">
+              <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+              <img
+                class="bd-placeholder-img rounded"
+                width="200"
+                height="200"
+                aria-label="Placeholder"
+                src="./assests/img/female_pic.png"
+                alt="" />
+              <h2 class="fw-normal">Heading</h2>
+              <p>
+                Some representative placeholder content for the three columns of
+                text below the carousel. This is the first column.
+              </p>
+              <p>
+                <a class="btn btn-secondary" href="#">View details &raquo;</a>
+              </p>
+            </div>
+            <!-- /.col-lg-4 -->
           </div>
-          <!-- /.col-lg-4 -->
+          <!-- /.row -->
         </div>
-        <!-- /.row -->
       </div>
-      </div>
-<!-- ----------------------------------------------Contact Section-------------------------------->
+      <!-- ----------------------------------------------Contact Section-------------------------------->
       <section id="contact" class="contact text-light">
         <div class="container py-5 px-3">
           <div class="contact-form w-50 m-auto">
@@ -283,9 +377,9 @@
           </div>
         </div>
       </section>
-</main>
+    </main>
 
-  <!-- Footer -->
+    <!-- Footer -->
     <footer
       class="text-center text-lg-start text-muted"
       style="background-color: #8f7f6614">
@@ -300,18 +394,16 @@
 
         <!-- Right -->
         <div>
-          <a
-            href="https://www.facebook.com/"
-            class="me-4 link-secondary">
+          <a href="https://www.facebook.com/" class="me-4 link-secondary">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="https://wa.me/+917892662572?text=Hi welcome to law serve
-" class="me-4 link-secondary">
+          <a
+            href="https://wa.me/+917892662572?text=Hi welcome to law serve
+"
+            class="me-4 link-secondary">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
-          <a
-            href="https://instagram.com/"
-            class="me-4 link-secondary">
+          <a href="https://instagram.com/" class="me-4 link-secondary">
             <i class="fab fa-instagram"></i>
           </a>
           <a href="" class="me-4 link-secondary">
@@ -325,25 +417,26 @@
         <!-- Right -->
       </section>
       <!-- Address  -->
-       <div class="d-flex flex-column justify-content-center align-items-center text-center address pt-3">
-    <div>
-        <address id="registered">
-            Registered Address : C-2462, 18/87, Sector 18, Indiranagar, Lucknow, Uttar Pradesh - 226016<br>
-        </address>
-    </div>
-    <div>
-        <address id="corporate">
-            Corporate Address : 447, 9th main, 5th Cross, Vivek Nagar, Bengaluru - 560047
-        </address>
-    </div>
-</div>
+      <div
+        class="d-flex flex-column justify-content-center align-items-center text-center address pt-3">
+        <div>
+          <address id="registered">
+            Registered Address : C-2462, 18/87, Sector 18, Indiranagar, Lucknow,
+            Uttar Pradesh - 226016<br />
+          </address>
+        </div>
+        <div>
+          <address id="corporate">
+            Corporate Address : 447, 9th main, 5th Cross, Vivek Nagar, Bengaluru
+            - 560047
+          </address>
+        </div>
+      </div>
 
       <!-- Copyright -->
       <div class="text-center p-4">
         © 2024 Copyright:
-        <a class="text-reset fw-bold" href="#"
-          >Law Serve & Partners</a
-        >
+        <a class="text-reset fw-bold" href="#">Law Serve & Partners</a>
       </div>
     </footer>
 
@@ -351,7 +444,13 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-      <script src="./assests/js/main.js"></script>
+    <script src="./assests/js/main.js"></script>
   </body>
 </html>

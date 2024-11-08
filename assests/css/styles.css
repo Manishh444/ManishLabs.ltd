@@ -368,7 +368,32 @@ opacity: 0.5;
 .Service-section .content p {
   color: rgb(255, 255, 255);
 }
+/* ------------new service section style */
 
+ .service-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+        background-color: #f8f9fa;
+      }
+
+      .service-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      .service-icon {
+        font-size: 3rem;
+        color: #007bff;
+        margin-bottom: 15px;
+      }
+
+      .service-title {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
 /* ---------------portfolio--------------- */
 .portfolio {
   /* padding-top: 80px; */
